@@ -1,17 +1,10 @@
 import './App.css'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
     <div className="app">
-      <header className="navbar">
-        <h1>Hamid-Social</h1>
-
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">Profile</a>
-          <a href="#">Messages</a>
-        </nav>
-      </header>
+      <Navbar />
 
       <main className="hero-section">
         <h2>Welcome to Hamid-Social</h2>
